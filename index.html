@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Travelnow</title>
+</head>
+<body>
+    <nav class="navBar row row-mobile">
+        <a href="#"><img src="./img/logo.svg" alt="logo" class="navBar__icon"></a>
+        <ul class="navBar__list">
+            <a href="#"><li>Discover</li></a>
+            <a href="#destination"><li>Destination</li></a>
+            <a href="#about-us"><li>About us</li></a>
+        </ul>
+        <button type="button" class="navBar__btn">
+            Book A Tour
+        </button>
+    </nav>
+    <section class="row intro1 row-mobile">
+        <div class="col intro1__content col--pd">
+            <h2>Find your next place to travel</h2>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+            <div class="searchBox">
+                <input type="text" name="searchBox" id="" class="searchBox__input" placeholder="Vietnam?">
+                <button class="searchBox__btn">Search</button>
+            </div>
+        </div>
+        <div class="col intro1__img">
+            <img src="./img/hero1.svg" alt="" class="hero">
+        </div>
+    </section>
+
+    <section class="row row-mobile">
+        <div class="col intro2__img">
+            <img src="./img/hero2.svg" alt="" class="hero">
+        </div>
+        <div class="col intro2__content col--pd">
+            <h2>Travel to any corner of the World</h2>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+            <div class="stats__container">
+                <div class="stats__items">
+                    <span>20</span><p>Years<br> Experience</p>
+                </div>
+                <div class="stats__items">
+                    <span>55</span><p>Destination<br> Collaboration</p>
+                </div>
+                <div class="stats__items">
+                    <span>600+</span><p>Tourist<br> Destination</p>
+                </div>
+            </div>
+            <button class="intro2__btn">Explore Destination</button>
+        </div>
+    </section>
+
+    <section class="row row-mobile" id="destination">
+        <div class="product">
+            <img src="./img/product1.svg" alt="" class="product__img">
+            <div class="items_container">
+                <div class="items__title">
+                    <h3 class="title--sm">Travel to Mountains</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <div class="items__info">
+                    <p><img src="./img/mapIcon.svg" alt="">Brazil</p>
+                    <p class="items__price">$6000</p>
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <img src="./img/product2.svg" alt="" class="product__img">
+            <div class="items_container">
+                <div class="items__title">
+                    <h3 class="title--sm">Travel to Desert</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <div class="items__info">
+                    <p><img src="./img/mapIcon.svg" alt="">Alaska</p>
+                    <p class="items__price">$6000</p>
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <img src="./img/product3.svg" alt="" class="product__img">
+            <div class="items_container">
+                <div class="items__title">
+                    <h3 class="title--sm">Camping in Mountains</h3>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <div class="items__info">
+                    <p><img src="./img/mapIcon.svg" alt="">Greenland</p>
+                    <p class="items__price">$6000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="row row-mobile">
+        <div class="col">
+            <img src="./img/hero3.svg" alt="" class="hero">
+        </div>
+        <div class="col col--pd service">
+            <h3 class="service__title">Our Quality Services</h3>
+            <div class="service__container">
+                <div class="service__icon">
+                    <img src="./img/icon-ticket.svg" alt="">
+                </div>
+                <div class="service__items">
+                    <h4>Ticket</h4>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                </div>
+            </div> 
+            <div class="service__container">   
+                <div class="service__icon">
+                    <img src="./img/icon-driver.svg" alt="" class="img--lg">
+                </div>
+                <div class="service__items">
+                    <h4>Driver</h4>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                </div>
+            </div>    
+            <div class="service__container">
+                <div class="service__icon">
+                    <img src="./img/icon-tour.svg" alt="" class="img--lg">
+                </div>
+                <div class="service__items">
+                    <h4>Tour</h4>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                </div>
+            </div>    
+            <div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer row-mobile" id="about-us">
+        <div class="row footer__container row-mobile">
+            <div class="col">
+                <img src="./img/logo.svg" alt="">
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+            </div>
+            <div class="col">
+                <h4>Tour</h4>
+                <ul>
+                    <li>Thailand</li>
+                    <li>Canada</li>
+                    <li>Korea</li>
+                    <li>Italy</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Support</h4>
+                <ul>
+                    <li>Account</li>
+                    <li>Legal</li>
+                    <li>Contact</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Userful Pages</h4>
+                <ul>
+                    <li>Deals</li>
+                    <li>FAQs</li>
+                    <li>Why Us</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row rights">
+            <p>@ 2021 · All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>
